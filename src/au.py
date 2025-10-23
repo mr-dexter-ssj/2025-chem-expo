@@ -1,16 +1,25 @@
-from manimlib import *
+from manim import *
 
 class SquareToCircle(Scene):
     def construct(self):
-        circle = Circle()
-        circle.set_fill(BLUE, opacity=0.5)
-        circle.set_stroke(BLUE_E, width=4)
+        circle1 = Circle(radius=0.5)
+        circle1.set_fill(opacity=0.5)
+        circle1.set_stroke(RED, width=4)
 
-        self.add(circle)
+        circle1 = Circle(radius=0.5)
+        circle1.set_fill(opacity=0.5)
+        circle1.set_stroke(RED, width=4)
 
-        sphere = Sphere(
-            radius=1,
-            color=RED
-        )
+        circle1 = Circle(radius=0.5)
+        circle1.set_fill(opacity=0.5)
+        circle1.set_stroke(RED, width=4)
 
-        self.add(sphere)
+        circle1 = Circle(radius=0.5)
+        circle1.set_fill(opacity=0.5)
+        circle1.set_stroke(RED, width=4)
+
+        circle1 = Circle(radius=0.5)
+        circle1.set_fill(opacity=0.5)
+        circle1.set_stroke(RED, width=4)
+
+        self.add(circle1)
