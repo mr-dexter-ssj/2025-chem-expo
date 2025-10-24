@@ -1,3 +1,8 @@
 # IDE/Code editors files
 
 .vscode
+
+# Manim files
+
+src/au/__pycache__
+src/au/media
