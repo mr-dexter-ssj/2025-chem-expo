@@ -1,0 +1,26 @@
+:root {
+    font-family: 'Inter';
+}
+
+body {
+    background-color: #ffba6a;
+}
+
+h1 {
+    text-align: center;
+}
+
+.body-box {
+    border: 1px solid #111111;
+    border-radius: 10px;
+    margin-top: 70px
+}
+
+.fixed-head {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #994e37;
+}
+
