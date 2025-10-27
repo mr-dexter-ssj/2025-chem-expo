@@ -5,7 +5,7 @@
 
 body {
     /* MAIN SWITCH: Controls the entire document style */
-    background-image: url(../src/gases.jpeg);
+    background-image: url('../src/gases.jpeg');
     background-size: cover;
     height: 100vh;
     padding-top: 100px
@@ -28,7 +28,7 @@ h1 {
     top: 0;
     left: 0;
     z-index: 100;
-    background-image: url(../src/gases.gif);
+    background-image: url('../src/gases.gif');
     background-size: cover;
     color: #ffffff
 }
