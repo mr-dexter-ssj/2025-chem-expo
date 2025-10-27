@@ -5,7 +5,9 @@
 
 body {
     /* MAIN SWITCH: Controls the entire document style */
-    background-color: #ffba6a;
+    background-image: url(/src/gases.jpeg);
+    background-size: cover;
+    height: 100vh;
     padding-top: 100px
 }
 
@@ -26,7 +28,9 @@ h1 {
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #994e37;
+    background-image: url(/src/gases.gif);
+    background-size: cover;
+    color: #ffffff
 }
 
 .ZrlWPe.jNnrVc {
