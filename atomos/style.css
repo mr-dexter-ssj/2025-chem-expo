@@ -1,0 +1,41 @@
+:root {
+    font-family: 'Inter';
+}
+
+body {
+    background-color: #ffba6a;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    /* border: 1px solid #111111;
+    border-radius: 10px; */
+    margin-top: 100px
+}
+
+.fixed-head {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #994e37;
+}
+
+.ZrlWPe.jNnrVc {
+    /* This is the model viewer */
+    width: 300px;
+    height: 150px;
+    place-self: center;
+}
+
+.atom-symbol {
+    border: 1px solid; 
+    width: 30px;
+    height: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0
+}
