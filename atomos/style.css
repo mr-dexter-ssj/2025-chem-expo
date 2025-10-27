@@ -4,22 +4,23 @@
 }
 
 body {
+    /* MAIN SWITCH: Controls the entire document style */
     background-color: #ffba6a;
-    padding-top: 100px   /*Change Here*/
+    padding-top: 100px
 }
 
 h1 {
+    /* Controls titles across the document */
     text-align: center;
 }
 
 .main {
-    /* border: 1px solid #111111;
-    border-radius: 10px; */
-    /*margin-top: 100px;   ----Deleted this---- */
+    /* Controls properties for the whole body except the header */
     top: 0
 }
 
 .fixed-head {
+    /* Controls the fixed header */
     position: fixed;
     width: 100%;
     top: 0;
@@ -36,51 +37,64 @@ h1 {
 }
 
 .atom-symbol {
-    border: 1px solid #111111;
+    /* This controls the main element, background color and border */
+    border: 1px solid #06608a;
     border-radius: 10px;
-    background-color: #2A4165;
-    color: #ffffff;
+    background-color: #84caf3;
+    color: #06608a;
     width: 50px;
     height: 70px;
     text-align: center;
 }
 
 .atom-symbol .symbol {
+    /* This controls the big symbol text and the divider */
     margin: 10px;
     line-height: 1.1;
     font-size: 30px;
     margin-left: 0;
     margin-right: 0px;
-    border-bottom: 1px solid #111111;
+    border-bottom: 1px solid #06608a;
+    margin-top: -2px;
+    padding-bottom: 3px
 }
 
 .atom-symbol .config {
-    font-size: 13px;
+    /* This controls the atomic configuration */
+    font-size: 11px;
     line-height: 0;
-    margin-top: -3px 
+    margin-top: -5px 
+}
+
+.atom-symbol .z {
+    /* This controls the atomic number */
+    margin: 0;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin: 0;
+    font-size: 15px;
+    z-index: 100
+
 }
 
 .data-table {
+    /* Main control of the data table */
     margin-top: 5px;
     border-collapse: collapse;
     width: 250px
 }
 
 .data-table table {
+    /* Controls specificaly table properties */
     border-collapse: collapse
 }
 
 .data-table td {
+    /* Controls how rows and columns behave */
     border: 1px solid;
     border-radius: 30px;
     padding: 3px
 }
 
-.atom-symbol .z {
-    margin: 0;
-    text-align: left;
-    padding-left: 5px;
-    
-    font-size: 10px;
-
-}
