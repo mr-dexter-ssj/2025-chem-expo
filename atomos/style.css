@@ -61,7 +61,7 @@ h1 {
 }
 
 .atom-symbol {
-    /* This controls the main element, background color and border */
+    /* This controls the main element, background color and border (Defaults) */
     border: 1px solid #06608a;
     border-radius: 10px;
     background-color: #84caf3;
@@ -88,14 +88,14 @@ h1 {
 }
 
 .atom-symbol .config {
-    /* This controls the atomic configuration */
-    font-size: 11px;
+    /* This controls the atomic configuration (Defaults) */
+    font-size: 9px;
     line-height: 0;
     margin-top: -5px 
 }
 
 .atom-symbol .z {
-    /* This controls the atomic number */
+    /* This controls the atomic number (Defaults) */
     margin: 0;
     text-align: left;
     padding-left: 5px;
