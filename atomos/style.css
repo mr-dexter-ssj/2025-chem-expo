@@ -1,6 +1,7 @@
 :root {
     font-family: 'Inter';
-    --header-height: 50px
+    --header-height: 50px;
+    line-height: 1.2
 }
 
 body {
@@ -70,7 +71,8 @@ h1 {
     text-align: center;
     scale: 1.6;
     margin-left: 16px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    padding: 0
 }
 
 .atom-symbol .symbol {
