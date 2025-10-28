@@ -5,8 +5,10 @@
 
 body {
     /* MAIN SWITCH: Controls the entire document style */
-    background-image: url('../src/gases.jpeg');
+    /*background-image: url('../src/gases.jpeg');*/
+    background-image: linear-gradient(to top right, #caf0f8, #90e0ef, #00b4d8);
     background-size: cover;
+    /*background-color: rgb(118, 204, 204);*/
     height: 100vh;
     padding-top: 100px
 }
@@ -28,9 +30,12 @@ h1 {
     top: 0;
     left: 0;
     z-index: 100;
-    background-image: url('../src/gases.gif');
+    /*background-image: url('../src/gases.gif');*/
     background-size: cover;
-    color: #ffffff
+    color: #ffffff;
+    background-color: #45cff1;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px
 }
 
 .ZrlWPe.jNnrVc {
@@ -49,6 +54,9 @@ h1 {
     width: 50px;
     height: 70px;
     text-align: center;
+    scale: 1.6;
+    margin-left: 16px;
+    margin-bottom: 30px
 }
 
 .atom-symbol .symbol {
@@ -87,7 +95,7 @@ h1 {
     /* Main control of the data table */
     margin-top: 5px;
     border-collapse: collapse;
-    width: 250px
+    width: 270px
 }
 
 .data-table table {
