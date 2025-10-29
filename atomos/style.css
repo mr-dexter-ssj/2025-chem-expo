@@ -16,7 +16,7 @@ body {
 /* Controls each specific gradient for the different types of elements */
 body.gas {
     background-image: linear-gradient(to top right, #caf0f8, #90e0ef, #00b4d8);
-    height: 100vh;
+    height: 600px
 }
 
 body.metal {
