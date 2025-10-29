@@ -110,6 +110,25 @@ body.metaloide .fixed-head {
     border-bottom-left-radius: 30px
 }
 
+body.gas-noble {
+    background-image: 0;
+}
+
+body.gas-noble .fixed-head {
+    /* Controls the fixed header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /*background-image: url('../src/gases.gif');*/
+    background-size: cover;
+    color: #ffffff;
+    background-color: #45cff1;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
 /* ------------------------------------------------------------------ */
 
 h1 {
