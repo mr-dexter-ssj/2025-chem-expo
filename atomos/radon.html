@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/1.12.0/model-viewer.min.js"></script>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-<title>Radón</title>
+        <title>Radon</title>
+    </head>
 
-<h1>Radón</h1>
+<body class="gas">
+    <div class="fixed-head">
+        <header>
+            <h1>Rádon</h1>
+        </header>
+    </div>
 
+    <div class="main">
 <model-viewer 
     jsname="UiBqse" 
     class="ZrlWPe jNnrVc" 
@@ -20,3 +33,52 @@
     max-camera-orbit="auto 180deg 1.4m" 
     min-camera-orbit="auto 0deg auto">
 </model-viewer>
+
+<audio controls class="audio">
+            <source src="../src/RÁDON.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="atom-symbol">
+            <p class="z">86</p>
+            <p class="symbol">
+                Rn
+            </p>
+            <p class="config">
+                [Xe]4f<sup>14</sup>
+                5d<sup>10</sup>
+                6s<sup>2</sup>
+                6p<sup>6</sup>
+            </p>
+            <style>
+                .z {
+                    font-size: 15px !important;
+                }
+            </style>
+        </div>
+
+        <div class="data-table">
+            <table>
+                <tr>
+                    <td><b>Peso atómico: </b></td>
+                    <td>222 u</td>
+                </tr>
+                <tr>
+                    <td><b>Electrones de valencia:</b></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td><b>Tipo: </b></td>
+                    <td>Gas noble</td>
+                </tr>
+                <tr>
+                    <td><b>Estado a temperatura ambiente: </b></td>
+                    <td>Sólido</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="description">
+            <p><b>Información del átomo:</b> El radio es un metal plateado y muy radiactivo. Se usó antiguamente en pinturas luminiscentes y estudios médicos, aunque hoy se maneja con extrema precaución.El radón es un gas radiactivo, incoloro e inodoro que se forma por la desintegración del uranio. Es peligroso en altas concentraciones por su toxicidad.</p>
+        </div>
+    </div>
+</body>

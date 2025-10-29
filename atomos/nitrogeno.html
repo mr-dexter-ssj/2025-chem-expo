@@ -1,9 +1,83 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/1.12.0/model-viewer.min.js"></script>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-<title>Nitrógeno</title>
+        <title>Nitrogeno</title>
+    </head>
 
-<h1>Nitrógeno</h1>
+<body class="gas">
+    <div class="fixed-head">
+        <header>
+            <h1>Nitrogeno</h1>
+        </header>
+    </div>
 
-<model-viewer jsname="UiBqse" class="ZrlWPe jNnrVc" data-model-viewer-library-version="3.1.1" src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen.glb" autoplay="" bounds="tight" camera-controls="" camera-orbit="-0.6751deg 70.99deg 1.4m" exposure="0.3" field-of-view="20deg" max-camera-orbit="auto 180deg 1.4m" min-camera-orbit="auto 0deg auto"></model-viewer>
+    <div class="main">
+<model-viewer 
+jsname="UiBqse" 
+class="ZrlWPe jNnrVc" 
+data-model-viewer-library-version="3.1.1" 
+src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen.glb" 
+autoplay="" 
+bounds="tight" 
+camera-controls="" 
+camera-orbit="-0.6751deg 70.99deg 1.4m" 
+exposure="0.3" 
+field-of-view="20deg" 
+max-camera-orbit="auto 180deg 1.4m" 
+min-camera-orbit="auto 0deg auto">
+</model-viewer>
+
+<audio controls class="audio">
+            <source src="../src/Nitrógeno.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="atom-symbol">
+            <p class="z">28</p>
+            <p class="symbol">
+                Ni
+            </p>
+            <p class="config">
+                1s<sup>2</sup>
+                2s<sup>2</sup>
+                2p<sup>3</sup>
+            </p>
+            <style>
+                .z {
+                    font-size: 15px !important;
+                }
+            </style>
+        </div>
+
+        <div class="data-table">
+            <table>
+                <tr>
+                    <td><b>Peso atómico: </b></td>
+                    <td>14.007 u</td>
+                </tr>
+                <tr>
+                    <td><b>Electrones de valencia:</b></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td><b>Tipo: </b></td>
+                    <td>No metal</td>
+                </tr>
+                <tr>
+                    <td><b>Estado a temperatura ambiente: </b></td>
+                    <td>Gaseoso</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="description">
+            <p><b>Información del átomo:</b> El nitrógeno es un gas incoloro e inodoro que constituye gran parte de la atmósfera. Se usa en fertilizantes, explosivos y procesos industriales.</p>
+        </div>
+    </div>
+</body>
