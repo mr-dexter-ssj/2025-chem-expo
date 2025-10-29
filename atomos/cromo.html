@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<html>   
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
         <title>Cromo</title>
     </head>
 
-<body>
+<body class="metal">
     <div class="fixed-head">
         <header>
             <h1>Cromo</h1>
@@ -19,45 +19,83 @@
     </div>
 
     <div class="main">
-<model-viewer 
-    jsname="UiBqse" 
-    class="ZrlWPe jNnrVc" 
-    data-model-viewer-library-version="3.1.1" 
-    src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium.glb" 
-    autoplay="" 
-    bounds="tight" 
-    camera-controls="" 
-    camera-orbit="-0.6751deg 70.99deg 1.4m" 
-    exposure="0.3" 
-    field-of-view="20deg" 
-    max-camera-orbit="auto 180deg 1.4m" 
-    min-camera-orbit="auto 0deg auto">
-</model-viewer>
-<div class="atom-symbol">
-                <p class="symbol">
-                    <sup>1</sup>H
-                </p>
-                <p class="config">
-                    1s<sup>1</sup>
-                </p>
-            </div>
+        <model-viewer 
+            jsname="UiBqse" 
+            class="ZrlWPe jNnrVc" 
+            data-model-viewer-library-version="3.1.1" 
+            src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium.glb" 
+            autoplay="" 
+            bounds="tight" 
+            camera-controls="" 
+            camera-orbit="-0.6751deg 70.99deg 1.4m" 
+            exposure="0.3" 
+            field-of-view="20deg" 
+            max-camera-orbit="auto 180deg 1.4m" 
+            min-camera-orbit="auto 0deg auto">
+        </model-viewer>
 
-            <div class="data-table">
-                <table>
-                    <tr>
-                        <td><b>Peso atómico:</b></td>
-                        <td>51.9961 u</td>
-                    </tr>
-                    <tr>
-                        <td><b>Electrones de valencia:</b></td>
-                        <td>6</td>
-                    </tr>
-                </table>
-            </div>
+        <audio controls class="audio">
+            <source src="../src/Cromo.mp3" type="audio/mpeg">
+        </audio>
 
-            <div class="description">
-                <p><b>Información del átomo:</b>El Cromo (Cr), cuyo nombre significa "color", es un metal duro que le da el rojo al rubí y evita la oxidación del acero inoxidable. Se encuentra en la naturaleza en la cromita. Esencial para la vida como cromo III, pero su forma cromo VI es tóxica.</p>
-            </div>
+        <div class="atom-symbol">
+            <p class="z">24</p>
+            <p class="symbol">
+                Cr
+            </p>
+            <p class="config">
+                [Ar] 4s<sup>1</sup> 3d<sup>5</sup>
+            </p>
+            <style>
+                .atom-symbol {
+                    width: 53px !important;
+                }
+
+                .z {
+                    font-size: 11px !important;
+                    margin-top: 2px !important;
+                    margin-bottom: 0px !important;
+                    padding-bottom: 0 !important;
+                }
+
+                .symbol {
+                    font-size: 30px !important;
+                    margin-top: 0px !important;
+                    padding-bottom: 4px !important;
+                    margin-bottom: 15px !important;
+                }
+
+                .config {
+                    margin-top: -12px !important;
+                    font-size: 8px !important;
+                    line-height: 0.8 !important;
+                }
+            </style>
+        </div>
+
+        <div class="data-table">
+            <table>
+                <tr>
+                    <td><b>Peso atómico: </b></td>
+                    <td>51.996 u</td>
+                </tr>
+                <tr>
+                    <td><b>Electrones de valencia:</b></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td><b>Tipo: </b></td>
+                    <td>Metal de transición</td>
+                </tr>
+                <tr>
+                    <td><b>Estado a temperatura ambiente: </b></td>
+                    <td>Sólido</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="description">
+            <p><b>Información del átomo:</b> El cromo es un metal de transición duro, frágil, brillante y muy resistente a la corrosión, propiedad que lo hace indispensable para fabricar el acero inoxidable y para el proceso de cromado (dar un acabado protector y brillante). Su nombre proviene de la palabra griega croma que significa color, ya que sus compuestos tienen una gran variedad de colores vibrantes y se usan en pigmentos. Además, el cromo (III) es un nutriente esencial para el cuerpo humano, pero el cromo (VI) es altamente tóxico y carcinógeno.</p>
         </div>
     </div>
 </body>
