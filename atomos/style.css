@@ -19,27 +19,7 @@ body.gas {
     height: 90vh
 }
 
-body.metal {
-    background-image: 0
-}
-
-body.synthetic {
-    background-image: 0
-}
-
-/* ------------------------------------------------------------------ */
-
-h1 {
-    /* Controls titles across the document */
-    text-align: center
-}
-
-.main {
-    /* Controls properties for the whole body except the header */
-    top: 0
-}
-
-.fixed-head {
+body.gas .fixed-head {
     /* Controls the fixed header */
     position: fixed;
     width: 100%;
@@ -52,6 +32,94 @@ h1 {
     background-color: #45cff1;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px
+}
+
+body.metal {
+    background-image: 0
+}
+
+body.metal .fixed-head {
+    /* Controls the fixed header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /*background-image: url('../src/gases.gif');*/
+    background-size: cover;
+    color: #ffffff;
+    background-color: #45cff1;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+body.sintetico {
+    background-image: 0
+}
+
+body.sintetico .fixed-head {
+    /* Controls the fixed header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /*background-image: url('../src/gases.gif');*/
+    background-size: cover;
+    color: #ffffff;
+    background-color: #45cff1;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+body.no-metal {
+    background-image: 0;
+}
+
+body.no-metal .fixed-head {
+    /* Controls the fixed header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /*background-image: url('../src/gases.gif');*/
+    background-size: cover;
+    color: #ffffff;
+    background-color: #45cff1;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+body.metaloide {
+    background-image: 0;
+}
+
+body.metaloide .fixed-head {
+    /* Controls the fixed header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /*background-image: url('../src/gases.gif');*/
+    background-size: cover;
+    color: #ffffff;
+    background-color: #45cff1;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+/* ------------------------------------------------------------------ */
+
+h1 {
+    /* Controls titles across the document */
+    text-align: center
+}
+
+.main {
+    /* Controls properties for the whole body except the header */
+    top: 0
 }
 
 .ZrlWPe.jNnrVc {
@@ -112,7 +180,7 @@ h1 {
     /* Main control of the data table */
     margin-top: 5px;
     border-collapse: collapse;
-    width: 280px
+    width: 340px
 }
 
 .data-table table {
