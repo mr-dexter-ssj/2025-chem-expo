@@ -11,53 +11,92 @@
         <title>Darmstatio</title>
     </head>
 
-<body>
+<body class="sintetico">
     <div class="fixed-head">
         <header>
             <h1>Darmstatio</h1>
         </header>
     </div>
 
-<div class="main">
-<model-viewer 
-    jsname="UiBqse" 
-    class="ZrlWPe jNnrVc" 
-    data-model-viewer-library-version="3.1.1" 
-    src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium.glb" 
-    autoplay="" 
-    bounds="tight" 
-    camera-controls="" 
-    camera-orbit="-0.6751deg 70.99deg 1.4m" 
-    exposure="0.3" 
-    field-of-view="20deg" 
-    max-camera-orbit="auto 180deg 1.4m" 
-    min-camera-orbit="auto 0deg auto">
-</model-viewer>
-<div class="atom-symbol">
-                <p class="symbol">
-                    <sup>1</sup>H
-                </p>
-                <p class="config">
-                    1s<sup>1</sup>
-                </p>
-            </div>
+    <div class="main">
+        <model-viewer 
+            jsname="UiBqse" 
+            class="ZrlWPe jNnrVc" 
+            data-model-viewer-library-version="3.1.1" 
+            src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium.glb" 
+            autoplay="" 
+            bounds="tight" 
+            camera-controls="" 
+            camera-orbit="-0.6751deg 70.99deg 1.4m" 
+            exposure="0.3" 
+            field-of-view="20deg" 
+            max-camera-orbit="auto 180deg 1.4m" 
+            min-camera-orbit="auto 0deg auto">
+        </model-viewer>
 
-            <div class="data-table">
-                <table>
-                    <tr>
-                        <td><b>Peso atómico:</b></td>
-                        <td>281 u</td>
-                    </tr>
-                    <tr>
-                        <td><b>Electrones de valencia:</b></td>
-                        <td>10</td>
-                    </tr>
-                </table>
-            </div>
+        <audio controls class="audio">
+            <source src="../src/Darmstatio.mp3" type="audio/mpeg">
+        </audio>
 
-            <div class="description">
-                <p><b>Información del átomo:</b>El darmstadio, con número atómico 110, es un elemento sintético y altamente radiactivo. Fue nombrado en honor a la ciudad alemana de Darmstadt y su isótopo más estable dura solo unos 12.7 segundos, por lo que solo se usa en investigación.</p>
-            </div>
+        <div class="atom-symbol">
+            <p class ="z">110</p>
+            <p class="symbol">
+                Ds
+            </p>
+            <p class="config">
+                [Rn]7s<sup>1</sup>5f<sup>14</sup> 6d<sup>9</sup>
+            </p>
+            <style>
+                .atom-symbol {
+                    width: 53px !important;
+                    height: 77px !important
+                }
+
+                .z {
+                    font-size: 11px !important;
+                    margin-top: 2px !important;
+                    margin-bottom: 0px !important;
+                    padding-bottom: 0 !important;
+                }
+
+                .symbol {
+                    font-size: 30px !important;
+                    margin-top: 0px !important;
+                    padding-bottom: 4px !important;
+                    margin-bottom: 15px !important;
+                }
+
+                .config {
+                    margin-top: -12px !important;
+                    font-size: 8px !important;
+                    line-height: 0.9 !important;
+                }
+            </style>
+        </div>
+
+        <div class="data-table">
+            <table>
+                <tr>
+                    <td><b>Peso atómico: </b></td>
+                    <td>281 u</td>
+                </tr>
+                <tr>
+                    <td><b>Electrones de valencia:</b></td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td><b>Tipo: </b></td>
+                    <td>Sintético</td>
+                </tr>
+                <tr>
+                    <td><b>Estado a temperatura ambiente: </b></td>
+                    <td>Sintético (No se sabe)</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="description">
+            <p><b>Información del átomo:</b> El darmstadio, con número atómico 110, es un elemento sintético y altamente radiactivo. Fue nombrado en honor a la ciudad alemana de Darmstadt y su isótopo más estable dura solo unos 12.7 segundos, por lo que solo se usa en investigación.</p>
         </div>
     </div>
 </body>
