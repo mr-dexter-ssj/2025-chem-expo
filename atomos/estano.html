@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<html>
     <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
         <title>Estaño</title>
     </head>
 
-<body>
+<body class="metal">
     <div class="fixed-head">
         <header>
             <h1>Estaño</h1>
@@ -19,41 +19,81 @@
     </div>
 
     <div class="main">
-<model-viewer 
-    jsname="UiBqse" 
-    class="ZrlWPe jNnrVc" 
-    data-model-viewer-library-version="3.1.1" 
-    src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin.glb" 
-    autoplay="" 
-    bounds="tight" 
-    camera-controls="" 
-    camera-orbit="-0.6751deg 70.99deg 1.4m" 
-    exposure="0.3" 
-    field-of-view="20deg" 
-    max-camera-orbit="auto 180deg 1.4m" 
-    min-camera-orbit="auto 0deg auto">
-</model-viewer>
-<div class="atom-symbol">
-                <p class="symbol">
-                    <sup>1</sup>H
-                </p>
-                <p class="config">
-                    1s<sup>1</sup>
-                </p>
-            </div>
+        <model-viewer 
+            jsname="UiBqse" 
+            class="ZrlWPe jNnrVc" 
+            data-model-viewer-library-version="3.1.1" 
+            src="https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin.glb" 
+            autoplay="" 
+            bounds="tight" 
+            camera-controls="" 
+            camera-orbit="-0.6751deg 70.99deg 1.4m" 
+            exposure="0.3" 
+            field-of-view="20deg" 
+            max-camera-orbit="auto 180deg 1.4m" 
+            min-camera-orbit="auto 0deg auto">
+        </model-viewer>
 
-            <div class="data-table">
-                <table>
-                    <tr>
-                        <td><b>Peso atómico:</b></td>
-                        <td>118.71 u</td>
-                    </tr>
-                    <tr>
-                        <td><b>Electrones de valencia:</b></td>
-                        <td>4</td>
-                    </tr>
-                </table>
-            </div>
+        <audio controls class="audio">
+            <source src="../src/Estaño.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="atom-symbol">
+            <p class ="z">51</p>
+            <p class="symbol">
+                Sn
+            </p>
+            <p class="config">
+                [Kr] 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>2</sup>
+            </p>
+            <style>
+                .atom-symbol {
+                    width: 53px !important;
+                    height: 78px !important
+                }
+
+                .z {
+                    font-size: 11px !important;
+                    margin-top: 2px !important;
+                    margin-bottom: 0px !important;
+                    padding-bottom: 0 !important;
+                }
+
+                .symbol {
+                    font-size: 30px !important;
+                    margin-top: 0px !important;
+                    padding-bottom: 4px !important;
+                    margin-bottom: 15px !important;
+                }
+
+                .config {
+                    margin-top: -12px !important;
+                    font-size: 8px !important;
+                    line-height: 0.8 !important;
+                }
+            </style>
+        </div>
+
+        <div class="data-table">
+            <table>
+                <tr>
+                    <td><b>Peso atómico: </b></td>
+                    <td>118.710 u</td>
+                </tr>
+                <tr>
+                    <td><b>Electrones de valencia:</b></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td><b>Tipo: </b></td>
+                    <td>Carbonoide </td>
+                </tr>
+                <tr>
+                    <td><b>Estado a temperatura ambiente: </b></td>
+                    <td>Sólido</td>
+                </tr>
+            </table>
+        </div>
 
             <div class="description">
                 <p><b>Información del átomo:</b>El estaño fue esencial en la Edad del Bronce (aleado con cobre). Es famoso por el "grito del estaño" (un sonido que produce al doblarse) y puede sufrir la "peste del estaño" (se desmorona con el frío). Actualmente, es vital para la soldadura y las latas de conserva.</p>
