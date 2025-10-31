@@ -35,7 +35,8 @@ body.gas .fixed-head {
 }
 
 body.metal {
-    background-image: 0
+    background-image: linear-gradient(to bottom left, #585a5c, #898b8f, #aeafb4);
+    height: 90vh
 }
 
 body.metal .fixed-head {
@@ -48,13 +49,14 @@ body.metal .fixed-head {
     /*background-image: url('../src/gases.gif');*/
     background-size: cover;
     color: #ffffff;
-    background-color: #45cff1;
+    background-color: #57595b;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px
 }
 
 body.sintetico {
-    background-image: 0
+    background-image: linear-gradient(to bottom left, #466952, #8abba3, #8dbfa5);
+    height: 90vh
 }
 
 body.sintetico .fixed-head {
@@ -67,13 +69,14 @@ body.sintetico .fixed-head {
     /*background-image: url('../src/gases.gif');*/
     background-size: cover;
     color: #ffffff;
-    background-color: #45cff1;
+    background-color: #56816b;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px
 }
 
 body.no-metal {
-    background-image: 0;
+    background-image: linear-gradient(to top right, #725a47, #b08863, #c4b5a1);
+    height: 90vh
 }
 
 body.no-metal .fixed-head {
@@ -86,13 +89,15 @@ body.no-metal .fixed-head {
     /*background-image: url('../src/gases.gif');*/
     background-size: cover;
     color: #ffffff;
-    background-color: #45cff1;
+    background-color: #806550;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px
 }
 
 body.metaloide {
-    background-image: 0;
+    background-image: linear-gradient(to top right, #436a41, #0b6047, #0c4836);
+    height: 90vh;
+    color: #ffffff
 }
 
 body.metaloide .fixed-head {
@@ -105,26 +110,7 @@ body.metaloide .fixed-head {
     /*background-image: url('../src/gases.gif');*/
     background-size: cover;
     color: #ffffff;
-    background-color: #45cff1;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px
-}
-
-body.gas-noble {
-    background-image: 0;
-}
-
-body.gas-noble .fixed-head {
-    /* Controls the fixed header */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    /*background-image: url('../src/gases.gif');*/
-    background-size: cover;
-    color: #ffffff;
-    background-color: #45cff1;
+    background-color: #0a4233;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px
 }
